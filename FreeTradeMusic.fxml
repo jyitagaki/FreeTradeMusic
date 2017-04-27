@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FXMLController">
+<ScrollPane fx:id="mainStage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FXMLController">
 	<content>
 		<Pane prefHeight="603.0" prefWidth="594.0">
 			<children>
@@ -44,7 +44,7 @@
 						<Region prefHeight="81.0" prefWidth="444.0" />
 						<MenuButton alignment="CENTER_RIGHT" mnemonicParsing="false" text="Menu" textAlignment="CENTER">
 							<items>
-								<MenuItem fx:id="signIn" mnemonicParsing="false" onAction="#onClick" text="Sign in" />
+								<MenuItem fx:id="signIn" mnemonicParsing="false" onAction="#onSignIn" text="Sign in" />
 								<MenuItem fx:id="createAcc" mnemonicParsing="false" onAction="#onClick" text="Create Account" />
 								<MenuItem mnemonicParsing="false" text="Help" />
                         <MenuItem fx:id="logoutItem" disable="true" mnemonicParsing="false" text="Logout" visible="false" />
