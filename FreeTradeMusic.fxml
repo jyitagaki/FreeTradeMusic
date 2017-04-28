@@ -45,7 +45,7 @@
 						<MenuButton alignment="CENTER_RIGHT" mnemonicParsing="false" text="Menu" textAlignment="CENTER">
 							<items>
 								<MenuItem fx:id="signIn" mnemonicParsing="false" onAction="#onSignIn" text="Sign in" />
-								<MenuItem fx:id="createAcc" mnemonicParsing="false" onAction="#onClick" text="Create Account" />
+								<MenuItem fx:id="createAcc" mnemonicParsing="false" onAction="#onCreateAcc" text="Create Account" />
 								<MenuItem mnemonicParsing="false" text="Help" />
                         <MenuItem fx:id="logoutItem" disable="true" mnemonicParsing="false" text="Logout" visible="false" />
 							</items>
